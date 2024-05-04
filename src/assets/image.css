@@ -1,0 +1,43 @@
+.bg-blurr {
+    background-image: url(https://raw.githubusercontent.com/appsaeed/appsaeed.github.io/v2.3/src/assets/blurr.webp);
+    transition: all 1s;
+    animation: ImageBlurr 3s infinite;
+}
+
+.image-blurr {
+    background-image: url(https://raw.githubusercontent.com/appsaeed/appsaeed.github.io/v2.3/src/assets/blurr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(10px);
+    transition: all 1s;
+    animation: ImageBlurr 3s infinite;
+}
+
+.image-blurr img {
+    transition: all 1s;
+    opacity: 0;
+}
+
+.image-blurr.loaded {
+    background-image: none !important;
+    animation: none !important;
+    filter: blur(0px) !important;
+}
+
+.image-blurr.loaded img {
+    opacity: 1 !important;
+}
+
+@keyframes ImageBlurr {
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
