@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "appmon": "^1.0.29",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "utilies": "^1.0.19"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
