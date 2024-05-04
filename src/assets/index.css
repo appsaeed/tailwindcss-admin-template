@@ -785,7 +785,7 @@ body {
     position: absolute;
     left: -0.3rem;
     top: -6.2rem;
-    background-image: url('../assets/photo-1539140953823-8de95668cb0e-1-uPb.png');
+    background-image: url('/src/assets/photo-1539140953823-8de95668cb0e-1-uPb.png');
     background-repeat: repeat;
     background-size: 47.57%;
 }

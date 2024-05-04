@@ -1,4 +1,7 @@
 import { HTMLAttributes } from "react"
+import photo3 from '../assets/images/photo-1539140953823-8de95668cb0e-1-PCR.png'
+import photo from '../assets/images/photo-1539140953823-8de95668cb0e-1-uPb.png'
+import photo2 from '../assets/images/photo-1634986666676-ec8fd927c23d-1-Cd3.png'
 import Banner from "../components/Banner"
 import { default as Cardtitle, default as FeatureTitle } from "../components/FeatureTitle"
 import SearchBar from "../components/SearchBar"
@@ -25,7 +28,7 @@ export default function Content(props: HTMLAttributes<HTMLDivElement>) {
                         text="A community for VR and novices alike, regular and friendly chat." />
 
                     <FeatureCard
-                        bgImage={'/src/assets/images/photo-1539140953823-8de95668cb0e-1-uPb.png'}
+                        bgImage={photo}
                         title="Game Play" text="A community for VR and novices alike, regular and friendly chat." />
 
                 </div>
@@ -34,8 +37,8 @@ export default function Content(props: HTMLAttributes<HTMLDivElement>) {
 
                 <div className="flex gap-6 justify-between">
 
-                    <PopularCard bgImage="./assets/photo-1634986666676-ec8fd927c23d-1-Cd3.png" />
-                    <PopularCard bgImage="./assets/photo-1634986666676-ec8fd927c23d-1-Cd3.png" />
+                    <PopularCard bgImage={photo2} />
+                    <PopularCard bgImage={photo2} />
 
                 </div>
 
@@ -50,13 +53,13 @@ export default function Content(props: HTMLAttributes<HTMLDivElement>) {
                     <RecentCard
                         title="Science"
                         text="A community for a scientific exploration enthusiast."
-                        bgImage="/src/assets/images/photo-1539140953823-8de95668cb0e-1-PCR.png"
+                        bgImage={photo3}
                     />
 
                     <RecentCard
                         title="Space"
                         text="A community for the space enthusiast."
-                        bgImage="./assets/photo-1539140953823-8de95668cb0e-1-evh.png"
+                        bgImage={photo3}
                     />
 
                 </div>

@@ -1,4 +1,5 @@
 import bImage from '../../assets/images/photo-1651211305258-0c08f09097b3-1-pHs.png'
+import userImg from '../../assets/images/user.jpg'
 import Image from '../Image'
 
 interface Props {
@@ -12,7 +13,7 @@ export default function RecentCard({
     text = 'text',
     title = 'title',
     bgImage = bImage,
-    avatar = '/src/assets/images/user.jpg'
+    avatar = userImg
 }: Props) {
     return (
         <div className="h-80 mb-6 relative overflow-hidden bg-[#2c2f48] rounded-[2rem]">

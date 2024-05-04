@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'admin-saas-template',
   plugins: [react()],
   server: {
     port: 3000,

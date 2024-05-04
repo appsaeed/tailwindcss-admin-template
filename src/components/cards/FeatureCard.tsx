@@ -1,4 +1,7 @@
+import grupUqo from '../../assets/images/group-img-uqo.png'
+import shapeImg from '../../assets/images/shape-P1o.png'
 import { ccn } from "../../utils/helper"
+
 
 type Props = {
     title?: string,
@@ -8,14 +11,14 @@ type Props = {
 }
 
 export default function FeatureCard({
-    bgImage = './assets/group-img-uqo.png',
+    bgImage = grupUqo,
     className = '',
     title = 'title',
     text,
 }: Props) {
     return (
         <div className={ccn(`h-[20rem] relative overflow-hidden [box-shadow:0_1rem_2rem_rgba(0,_0,_0,_0.5)] bg-[#2c2f48] rounded-[2rem] bg-cover flex`, className)} style={{ backgroundImage: `url(${bgImage})` }}>
-            <div className="p-8 w-full h-4/5 bg-[url(./assets/shape-P1o.png)]  self-end flex">
+            <div className={`p-8 w-full h-4/5 bg-[url(${shapeImg})]  self-end flex`}>
                 <div className="self-end">
                     <div className="text-[2.2rem] font-semibold text-gray-100">
                         {title}
