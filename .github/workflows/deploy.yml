@@ -44,7 +44,7 @@ jobs:
       - name: Build project
         run: npm run build
         env: 
-          VITE_BASENAME: ${{ github.repository }}
+          VITE_BASENAME: ${{ github.event.repository.name }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
