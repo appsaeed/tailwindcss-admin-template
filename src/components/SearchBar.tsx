@@ -1,4 +1,4 @@
-import searchImg from '../assets/images/search-5j3.png';
+import searchImg from '@/public/assets/images/search-5j3.png';
 import Image from "./Image";
 
 export default function SearchBar() {

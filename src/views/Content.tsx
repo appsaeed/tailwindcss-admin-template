@@ -1,7 +1,7 @@
+import photo3 from '@/public/assets/images/photo-1539140953823-8de95668cb0e-1-PCR.png'
+import photo from '@/public/assets/images/photo-1539140953823-8de95668cb0e-1-uPb.png'
+import photo2 from '@/public/assets/images/photo-1634986666676-ec8fd927c23d-1-Cd3.png'
 import { HTMLAttributes } from "react"
-import photo3 from '../assets/images/photo-1539140953823-8de95668cb0e-1-PCR.png'
-import photo from '../assets/images/photo-1539140953823-8de95668cb0e-1-uPb.png'
-import photo2 from '../assets/images/photo-1634986666676-ec8fd927c23d-1-Cd3.png'
 import Banner from "../components/Banner"
 import { default as Cardtitle, default as FeatureTitle } from "../components/FeatureTitle"
 import SearchBar from "../components/SearchBar"

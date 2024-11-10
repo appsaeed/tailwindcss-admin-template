@@ -12,9 +12,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "utilies": "^1.0.19"
+    "utilies": "^1.34.0"
   },
   "devDependencies": {
+    "@types/node": "^22.9.0",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",

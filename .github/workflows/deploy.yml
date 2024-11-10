@@ -44,7 +44,7 @@ jobs:
       - name: Build project
         run: npm run build
         env: 
-          VITE_API_TOKEN: ${{ secrets.VITE_API_TOKEN }}
+          VITE_BASENAME: ${{ github.repository }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

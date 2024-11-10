@@ -1,5 +1,5 @@
-import grupUqo from '../../assets/images/group-img-uqo.png'
-import shapeImg from '../../assets/images/shape-P1o.png'
+import grupUqo from '@/public/assets/images/group-img-uqo.png'
+import shapeImg from '@/public/assets/images/shape-P1o.png'
 import { ccn } from "../../utils/helper"
 
 

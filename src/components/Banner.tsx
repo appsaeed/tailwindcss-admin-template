@@ -1,4 +1,4 @@
-import img from '../assets/images/photo-1647351408653-d582b364bf2f-hhf.png'
+import img from '@/public/assets/images/photo-1647351408653-d582b364bf2f-hhf.png'
 interface Props {
     content?: string
 }

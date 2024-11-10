@@ -1,5 +1,5 @@
+import userImg from '@/public/assets/images/user.jpg'
 import { HTMLAttributes } from "react"
-import userImg from '../assets/images/user.jpg'
 import Image from "../components/Image"
 import MiniTitle from "../components/MiniTitle"
 

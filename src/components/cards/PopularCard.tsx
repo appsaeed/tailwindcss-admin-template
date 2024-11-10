@@ -1,4 +1,4 @@
-import rectangle from '../../assets/images/rectangle-831-wc1.png';
+import rectangle from '@/public/assets/images/rectangle-831-wc1.png';
 import Image from "../Image";
 interface Props {
     bgImage?: string,

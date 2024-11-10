@@ -3,11 +3,11 @@ import AppLogo from "../components/AppLogo";
 import MenuItem from "../components/MenuItem";
 import SidebarItem from "../components/SidebarItem";
 
-import explore from '../assets/images/explore.png';
-import logoGroup2 from '../assets/images/logo-group-2-LYm.png';
-import logoGroup3 from '../assets/images/logo-group-3-wGy.png';
-import logoIcon from '../assets/images/logo-icon-add.png';
-import logo from '../assets/images/logo-logo.png';
+import explore from '@/public/assets/images/explore.png';
+import logoGroup2 from '@/public/assets/images/logo-group-2-LYm.png';
+import logoGroup3 from '@/public/assets/images/logo-group-3-wGy.png';
+import logoIcon from '@/public/assets/images/logo-icon-add.png';
+import logo from '@/public/assets/images/logo-logo.png';
 
 
 export default function Sidebar(props: HTMLAttributes<HTMLDivElement>) {

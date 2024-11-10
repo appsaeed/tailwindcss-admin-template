@@ -1,5 +1,5 @@
-import bImage from '../../assets/images/photo-1651211305258-0c08f09097b3-1-pHs.png'
-import userImg from '../../assets/images/user.jpg'
+import bImage from '@/public/assets/images/photo-1651211305258-0c08f09097b3-1-pHs.png'
+import userImg from '@/public/assets/images/user.jpg'
 import Image from '../Image'
 
 interface Props {
